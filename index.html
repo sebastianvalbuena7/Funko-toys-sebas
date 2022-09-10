@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="Keywords" content="Funko Superheroes, DC Funkos, Figuras de Accion Superhores">
+    <meta name="description" content="Encuentra los mejores funkos de alta calidad y a los mejores precios.">
+    <title>FunKoToys</title>
+    <link rel="icon" href="img/Redes Sociales/bat-ico-white.png">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header nav-sticky">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="logo-header"><img src="img/Logo.png" alt="Logo de Funkos"></a>
+            </div>
+            <div class="nav-menu">
+                <ul class="menu-texto">
+                    <li class="text-nav"><a href="#">Home</a></li>
+                    <li class="text-nav"><a href="#">About</a></li>
+                    <li class="text-nav"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" class="img-carrito" src="img/ico carrito.png" alt="Carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito" class="t-carrito">
+                                <thead>
+                                    <tr class="text-car">
+                                        <th class="tr-text">Imagen</th>
+                                        <th class="tr-text">Nombre</th>
+                                        <th class="tr-text">Precio</th>
+                                        <th class="tr-text">Cantidad</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <div class="text-carrito">
+                               <a href="#" id="vaciar-carrito" class="button-vaciar-carrito">Vaciar Carrito</a>
+                            </div>
+                            <div class="text-carrito">
+                                <a href="#" id="finalizar-compra" class="button-finalizar-compra">Finalizar Compra</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="lista-funkos">
+        <h1>Encuentra tu superhéroe favorito</h1>
+        <section class="card-section">
+            <div class="card-hero">
+                <img src="img/Deathstroke.png" alt="Deathstroke">
+                <p>Deathstroke</p>
+                <div class="text-card">
+                    <p class="precio"><span>$60</span></p>
+                    <a href="#" class="agregar-carrito" data-id="1">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Darkseid.png" alt="Darkseid">
+                <p>Darkseid</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="2">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img class="img-top" src="img/Batman.png" alt="Batman">
+                <p>Batman</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$100</span></p>
+                    <a href="#" class="agregar-carrito" data-id="3">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Batman Who Laughs.png" alt="Batman Que Rie">
+                <p>Batman Who Laughs</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$70</span></p>
+                    <a href="#" class="agregar-carrito" data-id="4">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+        <section class="card-section">
+            <div class="card-hero">
+                <img src="img/Blue Bettle.png" alt="Blue Bettle">
+                <p>Blue Bettle</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="5">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Doctor Fate.png" alt="Doctor destino">
+                <p>Doctor Fate</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$90</span></p>
+                    <a href="#" class="agregar-carrito" data-id="6">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Doomsday.png" alt="Doomsday" class="img-top">
+                <p>Doomsday</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$75</span></p>
+                    <a href="#" class="agregar-carrito" data-id="7">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Flash Reverse.png" alt="Flash Reverso">
+                <p>Reverse Flash</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="8">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <div class="card-hero">
+                <img src="img/Flash.png" alt="Flash">
+                <p>Flash</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="9">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Green Arrow.png" alt="Green Arrow">
+                <p>Green Arrow</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="10">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Jason Todd.png" alt="Red Hood">
+                <p>Red Hood</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="11">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Green Lantern.png" alt="Green Lantern">
+                <p>Green Lantern</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="12">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <div class="card-hero">
+                <img src="img/Joker.png" alt="Joker">
+                <p>Joker</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$100</span></p>
+                    <a href="#" class="agregar-carrito" data-id="13">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Killer Croc.png" alt="Killer Croc">
+                <p>Killer Croc</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$120</span></p>
+                    <a href="#" class="agregar-carrito" data-id="14">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Nightwing.png" alt="Nightwing">
+                <p>Nightwing</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="15">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Plastic Man.png" alt="Plastic Man">
+                <p>Plastic Man</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="16">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <div class="card-hero">
+                <img src="img/Robin.png" alt="Robin">
+                <p>Robin</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="17">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Scarecrow.png" alt="Scarecrow">
+                <p>Scarecrow</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="18">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Wonder Woman.png" alt="Wonder Woman">
+                <p>Wonder Woman</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$80</span></p>
+                    <a href="#" class="agregar-carrito" data-id="19">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+            <div class="card-hero">
+                <img src="img/Superman.png" alt="Superman">
+                <p class="">Superman</p>
+                <div class="text-card">
+                    <p class="precio"> <span>$110</span></p>
+                    <a href="#" class="agregar-carrito" data-id="20">
+                        Comprar
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="nav-footer">
+            <div class="logo">
+                <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            </div>
+            <div class="text-footer">
+                <p>Sebastian Valbuena - Desarrollador Web</p>
+            </div>
+            <div class="img-footer">
+                <a href="https://www.facebook.com/profile.php?id=100072270240657" target="_blank"><img class="img-red" src="img/Redes Sociales/facebook.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/sebastianvalbuenaacosta/" target="_blank"><img class="img-red" src="img/Redes Sociales/linkedin.png" alt="linkedin"></a>
+                <a href="https:www.twitter.com" target="_blank"><img class="img-red" src="img/Redes Sociales/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
